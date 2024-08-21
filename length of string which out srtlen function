@@ -1,0 +1,6 @@
+num=(input('enter char\n'))
+k=0
+for i in num:
+   k=k+1
+   
+print(f"lenght of string is {k}" )
