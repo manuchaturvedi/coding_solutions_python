@@ -1,0 +1,13 @@
+num=(input('enter string\n'))
+vowels=['a','e','i','o','u']
+for i in num:
+    for j in vowels:
+     if i.lower() == j:
+        num=num.replace(j,'')
+         
+         
+        
+    
+
+
+print(f"string after removing vowels are \n {num}")
