@@ -1,0 +1,11 @@
+num=(input('enter string\n'))
+new=""
+for i in num:
+   if i.isupper():
+       new=new+i.lower()
+   else:
+       new=new+i.upper()
+    
+
+
+print(f"toggle of string is {new}")
