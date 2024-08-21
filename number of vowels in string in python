@@ -1,0 +1,11 @@
+num=(input('enter string\n'))
+vowels=['a','e','i','o','u']
+k=0
+for i in num:
+    for j in vowels:
+     if i.lower() == j:
+        k+=1
+    
+
+
+print(f"number of vowels is {k}")
