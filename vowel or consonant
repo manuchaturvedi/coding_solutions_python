@@ -1,0 +1,15 @@
+num=(input('enter char'))
+
+vowel=['a','e','i','o','u']
+
+for i in vowel:
+    if num==i:
+        print('this is vowels')
+        exit(1)
+
+print('this is consonents')
+        
+    
+    
+
+
